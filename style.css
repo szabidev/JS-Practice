@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #14213d;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+.homework {
+  margin: 0 auto;
+  width: 900px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin: 100px 0;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 200;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.display-numbers,
+.elements-of-array,
+.fibonacci,
+.multiples-of-3-and-5 {
+  width: 700px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #adb5bd;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  padding: 20px 40px;
+  margin-bottom: 50px;
+}
+
+.display-numbers-1,
+.display-numbers-2 {
+  width: 250px;
+  border: 1px solid #212529;
+  border-radius: 5px;
+  height: 300px;
+}
+
+.ulElement {
+  list-style: none;
+  /* divide the list in columns */
+  column-count: 2;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.listElement {
+  font-size: 20px;
+  padding: 2px;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+}
+
+.display-numbers-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 133px;
+  margin-top: 20px;
+}
+
+.display-numbers-btn-2 {
+  position: absolute;
+  bottom: 20px;
+  right: 133px;
+  margin-top: 20px;
+}
+
+.elements-of-array {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+
+.elements-of-array div {
+  width: 200px;
+  height: 150px;
+  border: 1px solid #212529;
+  border-radius: 5px;
+}
+
+.paragraph {
+  text-align: center;
+  margin-top: 30%;
+  font-size: 20px;
+}
+
+.fibonacci {
+  height: 700px;
+}
+
+.fib-list {
+  list-style: none;
+  column-count: 3;
+}
+
+.fibListItem {
+  padding: 5px 0;
+  font-size: 20px;
+}
+
+.fib-btn,
+.multiple-btn {
+  position: absolute;
+  bottom: 40px;
+}
+
+.multiples-of-3-and-5 {
+  height: 900px;
+}
+.multi-list {
+  padding-top: 50px;
+  list-style: none;
+  column-count: 5;
+  column-gap: 50px;
+}
+
+.multi-item {
+  padding: 5px 0;
+  font-size: 20px;
+}
