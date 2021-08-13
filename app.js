@@ -248,6 +248,67 @@ function fizzBuzz() {
 
 
 // Write a function for each of the following printing patterns:
+// First pattern
+for (let i = 1; i <= 4; i++) {
+    for (let j = 1; j <= 10; j++) {
+        document.write('*');
+    }
+    document.write('<br>');
+}
+
+// Second pattern
+for (let i = 1; i <= 5; i++) {
+    for (let j = 1; j <= i; j++) {
+        document.write('*');
+    }
+    document.write('<br>');
+}
+
+// Third pattern   ??????????? Has to be reversed
+let runLoopTime = 5;
+
+for (let i = 1; i <= runLoopTime; i++) {
+    // Print spaces
+    for (let j = 0; j < runLoopTime - i; j++) {
+        document.write('&nbsp;');
+    }
+    // Print starts
+    for (let k = 0; k < i; k++) {
+        document.write('*');
+    }
+    document.write('<br/>');
+}
+
+// Fourth pattern ??? has to be in pyramid form
+let iterationTime = 5;
+
+for (let i = 1; i <= iterationTime; i++) {
+    // print spaces
+    for (let j = 1; j < iterationTime - i; j++) {
+        document.write(' ');
+        // printing space doesnt work
+    }
+    // print stars
+    for (let k = 0; k < 2 * i - 1; k++) {
+        document.write('*');
+    }
+    document.write('<br/>');
+}
+
+// Fifth pattern
+let runTime = 5;
+
+for (let i = 1; i <= runTime; i++) {
+    // Print spaces
+    for (let j = 0; j < runTime - i; j++) {
+        document.write('&nbsp;');
+    }
+    // Print starts
+    for (let k = 0; k < i; k++) {
+        document.write(i);
+    }
+    document.write('<br/>');
+}
 
 
-
+// Sixth pattern
